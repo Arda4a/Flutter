@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/nalan.dart';
-import 'nalan.dart';
+
 
 void main(List<String> args) {
   runApp(const App());
