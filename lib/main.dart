@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'todolist.dart';
+import 'package:flutter_application_1/Ekran.dart';
 
 void main() {
   runApp(const MyApp());
@@ -7,13 +7,15 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
+
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: 'OrtalaMatik-9174-Arda Samet Çakır',
       debugShowCheckedModeBanner: false,
-      title: '9174-Arda ',
-      theme: ThemeData(primarySwatch: Colors.red),
-     home: const Todolist(),
+      theme: ThemeData(primarySwatch: Colors.amber),
+      home: const OrtalaMatik()
     );
-  }
+  }              
 }
